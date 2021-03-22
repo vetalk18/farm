@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name='viewport' content='width=device-width,initial-scale=1'/>
+	<meta content='true' name='HandheldFriendly'/>
+	<meta content='width' name='MobileOptimized'/>
+	<meta content='yes' name='apple-mobile-web-app-capable'/>
+	<title>1-к квартира, 31 м², 1/5 эт.</title>
+	
+	<link rel="shortcut icon" href="img/favicons/favicon-16.png">
+	<link rel="icon" sizes="16x16" href="img/favicons/favicon-16.png" type="image/png">
+	<link rel="icon" sizes="32x32" href="img/favicons/favicon-32.png" type="image/png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicons/touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="167x167" href="img/favicons/touch-icon-ipad-retina.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/touch-icon-iphone-retina.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<header class="header" id="header">
+		<div class="header__blue-block"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 d-flex align-items-center header__content">
+					<div class="header__content-blue-block"></div>
+					<div class="hamburger hamburger_wrap d-xl-none">
+						<div class="line_top"></div>
+						<div class="line_mid"></div>
+						<div class="line_bottom"></div>
+					</div>
+					<nav class="burger-menu" id="burger-menu">
+						<div class="burger-menu__body header__burger">
+							<div class="hamburger hamburger_wrap hamburger_close">
+								<div class="line_top"></div>
+								<div class="line_mid"></div>
+								<div class="line_bottom"></div>
+							</div>
+							<ul class="burger-menu__list">
+								<li class="burger-menu__item">
+									<a href="/" class="burger-menu__link">Главная</a>
+									<hr class="color-line">
+								</li>
+								<li class="burger-menu__item">
+									<a href="all-flats.html" class="burger-menu__link">Квартиры</a>
+									<hr class="color-line">
+								</li>
+								<li class="burger-menu__item">
+									<a href="#contacts" class="burger-menu__link">Контакты</a>
+									<hr class="color-line">
+								</li>
+								<li class="burger-menu__item">
+									<a href="#about" class="burger-menu__link">О нас</a>
+									<hr class="color-line">
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<a href="index.html" class="header__logo animate__animated animate__fadeIn">
+						<picture>
+							<source srcset="img/logo.webp" type="image/webp"/>
+							<img src="img/logo.png" alt="" class="header__logo-img logo"/>
+						</picture>
+					</a>
+					<div class="d-none d-xl-block animate__animated animate__fadeIn" data-wow-delay="0.2s">
+						<ul class="header__nav nav">
+							<li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+							<li class="nav__item"><a href="all-flats.html" class="nav__link">Квартиры</a></li>
+							<li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+							<li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+						</ul>
+					</div>
+					<div class="header__contacts d-flex flex-lg-row-reverse animate__animated animate__fadeIn" data-wow-delay="0.2s">
+						<a class="header__tel d-flex align-items-center" href="tel:+79197142500">
+							<picture>
+								<!-- <source srcset="img/icon-tel-w.svg" type="image/webp"/> -->
+								<img src="img/icon-tel-w.svg" alt="" class="contact-icon header__tel-icon"/>
+							</picture>
+							<p class="header__tel-txt d-none d-md-inline-block">+7 (950) 444-45-44</p>
+						</a>
+						<a class="header__mail d-flex align-items-center" href="mailto:mail@yandex.ru">
+							<picture>
+								<!-- <source srcset="img/icon-mail-w.svg" type="image/webp"/> -->
+								<img src="img/icon-mail-w.svg" alt="" class="contact-icon header__mail-icon d-md-none d-lg-block"/>
+							</picture>
+							<p class="header__mail-txt d-none d-lg-inline-block">mail@yandex.ru</p>
+						</a>
+					</div>
+					<div class="click_btn header__btn btn d-none d-md-inline-block animate__animated animate__fadeIn" data-wow-delay="0.4s">Заказать звонок</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="flat-card">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="h2 flat-card__title-h2 wow animate__animated animate__fadeInLeft">1-к квартира, 31 м²,
+					1/5 эт.</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-7 wow animate__animated animate__fadeInLeft" style="min-width: 0%;">
+					<div class="fotorama" data-nav="thumbs" data-allowfullscreen="true" data-thumbheight="67">
+
+						<img src="img/banner__img-1440.png" style="border-radius: 10px !important;"/>
+						<img src="img/flats-img-1-1440.png"/>
+						<img src="img/flats-img-1-1440.png"/>
+						<img src="img/flats-img-1-1440.png"/>
+					</div>
+				</div>
+				<div class="col-12 col-md-5 wow animate__animated animate__fadeInRight">
+					<div class="flat-card__item">
+						<h3 class="h3 flat-card__title-h3 wow animate__animated animate__fadeInUp"
+						data-wow-delay="0.1s">Однокомнатная квартира</h3>
+						<p class="p flat-card__p wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">Сдам 1-квартиру с балконом есть всё необходимое для проживания выписываю ДОКУМЕНТЫ ЧЕК ОНЛАЙН 25+звонить...
+						</p>
+						<p class="p flat-card__price">
+							<span	class="flat-card__price-price wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">1 200 ₽</span>
+							за сутки
+						</p>
+						<p class="p flat-card__loc wow animate__animated animate__fadeInUp" data-wow-delay="0.7s">
+						Березники, ул. Юбилейная 108</p>
+						<div class="click_btn btn flat-card__btn wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">Забронировать</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<h3 class="h3 flat-card__title-h3 flat-card__title-h3-2">Оснащение:</h3>
+				</div>
+			</div>
+			<ul class="flat-card__list wow animate__animated animate__fadeInUp">
+				<li class="flat-card__list-item col-12 col-sm-6 col-md-4 wow animate__animated animate__fadeInUp"
+				data-wow-delay="0.1s">Холодильник</li>
+				<li class="flat-card__list-item col-12 col-sm-6 col-md-4 wow animate__animated animate__fadeInUp"
+				data-wow-delay="0.2s">Стиральная машина</li>
+				<li class="flat-card__list-item col-12 col-sm-6 col-md-4 wow animate__animated animate__fadeInUp"
+				data-wow-delay="0.3s">СВЧ</li>
+				<li class="flat-card__list-item col-12 col-sm-6 col-md-4 wow animate__animated animate__fadeInUp"
+				data-wow-delay="0.4s">Телевизор плазма</li>
+				<li class="flat-card__list-item col-12 col-sm-6 col-md-4 wow animate__animated animate__fadeInUp"
+				data-wow-delay="0.5s">Цифровое телевидение</li>
+				<li class="flat-card__list-item col-12 col-sm-6 col-md-4 wow animate__animated animate__fadeInUp"
+				data-wow-delay="0.6s">Сушка</li>
+				<li class="flat-card__list-item col-12 col-sm-6 col-md-4 wow animate__animated animate__fadeInUp"
+				data-wow-delay="0.7s">Балкон</li>
+				<li class="flat-card__list-item col-12 col-sm-6 col-md-4 wow animate__animated animate__fadeInUp"
+				data-wow-delay="0.8s">Домофон</li>
+				<li class="flat-card__list-item col-12 col-sm-6 col-md-4 wow animate__animated animate__fadeInUp"
+				data-wow-delay="0.9s">Wi -fi</li>
+				<li class="flat-card__list-item col-12 col-sm-6 col-md-4 wow animate__animated animate__fadeInUp"
+				data-wow-delay="1s">Вся посуда</li>
+				<li class="flat-card__list-item col-12 col-sm-6 col-md-4 wow animate__animated animate__fadeInUp"
+				data-wow-delay="1.1s">Два комплекта полотенец</li>
+				<li class="flat-card__list-item col-12 col-sm-6 col-md-4 wow animate__animated animate__fadeInUp"
+				data-wow-delay="1.2s">Всегда качественное постельное белье</li>
+				<li class="flat-card__list-item col-12 col-sm-6 col-md-4 wow animate__animated animate__fadeInUp"
+				data-wow-delay="1.3s">Большой, комфортный раздвижной диван</li>
+				<li class="flat-card__list-item col-12 col-sm-6 col-md-4 wow animate__animated animate__fadeInUp"
+				data-wow-delay="1.4s">Спальное место 1600х2000 (1 спальное место, размещение до 2-х человек, возможно докомплектация раскладушкой или большим надувным матрацем).</li>
+			</ul>
+			<div class="row">
+				<div class="col-12">
+					<h3 class="h3 flat-card__title-h3 flat-card__title-h3wl">Все сделано с любовью для Вас!</h3>
+				</div>
+				<div class="col-12 d-flex flex-column">
+					<a href="all-flats.html" class="btn flat-card__btn-last">Смотреть все квартиры</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="about" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="h2 about__title-h2 wow animate__animated animate__fadeInLeft">О нас</h2>
+				</div>
+			</div>
+			<div class="row ">
+				<div class="about__row">
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-5 wow animate__animated animate__fadeInLeft" data-wow-delay="0.2s" >
+						<p class="about__p">Сегодня «Домашняя гостиница» — одна из крупнейших в Пермском крае гостиничных сетей, динамично расширяющая географический охват и повышающая качество сервиса.
+						</p>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 ml-md--10 col-lg-6  col-xxl-7 d-flex about__items wow animate__animated animate__fadeInRight" data-wow-delay="0.2s">
+						<div class="about__item d-flex wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+							<picture>
+								<img src="img/icon-deal.svg" alt="" class="about__icon"/>
+							</picture>
+							<div class="about__item-txt">
+								<p class="about__txt-num">40+</p>
+								<p class="about__txt-txt">Клиентов</p>
+							</div>
+						</div>
+						<div class="about__item d-flex wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+							<picture>
+								<img src="img/icon-smile.svg" alt="" class="about__icon"/>
+							</picture>
+							<div class="about__item-txt">
+								<p class="about__txt-num">100+</p>
+								<p class="about__txt-txt">Отзывов</p>
+							</div>
+						</div>
+						<div class="about__item d-flex wow animate__animated animate__fadeInUp" data-wow-delay="0.8s">
+							<picture>
+								<img src="img/icon-house.svg" alt="" class="about__icon"/>
+							</picture>
+							<div class="about__item-txt">
+								<p class="about__txt-num">9</p>
+								<p class="about__txt-txt">Квартир</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<hr class="about__hr">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="contacts" id="contacts">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-7 col-md-4 col-xxl-5 contacts__items wow animate__animated animate__fadeInLeft" data-wow-delay="0.4s">
+					<div class="contacts__contacts">
+						<h2 class="h2 contacts__title-h2">Контакты</h2>
+						<div class="contacts__item contacts__loc d-flex align-items-center mb-md-10 mb-lg-17" href="#">
+							<picture>
+								<source srcset="img//contacts__icon-loc.webp" type="image/webp"/>
+								<img src="img/contacts__icon-loc.png" alt="" class="contacts__contacts-icon contacts__loc-icon"/>
+							</picture>
+							<p class="contacts__p contacts__loc-txt">Пермский край, город Березники</p>
+						</div>
+						<a class="contacts__item contacts__tel d-flex align-items-center mb-md-10 mb-lg-17" href="tel:+79197142500">
+							<picture>
+								<source srcset="img//contacts__icon-tel.webp" type="image/webp"/>
+								<img src="img/contacts__icon-tel.png" alt="" class="contacts__contacts-icon contacts__tel-icon"/>
+							</picture>
+							<p class="contacts__p contacts__tel-txt">+7 (950) 444-45-44</p>
+						</a>
+						<a class="contacts__item contacts__mail d-flex align-items-center mb-md-10 mb-lg-17" href="mailto:mail@yandex.ru">
+							<picture>
+								<source srcset="img//contacts__icon-mail.webp" type="image/webp"/>
+								<img src="img/contacts__icon-mail.png" alt="" class="contacts__contacts-icon contacts__mail-icon"/>
+							</picture>
+							<p class="contacts__p contacts__mail-txt">mail@yandex.ru</p>
+						</a>
+					</div>
+					<div class="contacts__item contacts__soc d-flex flex-sm-column">
+						<a class="d-flex align-items-center contacts__item contacts__item-1 contacts__inst" href="https://www.instagram.com/arendakvartir59/">
+							<picture>
+								<source srcset="img//contacts__icon-inst.webp" type="image/webp"/>
+								<img src="img/contacts__icon-inst.png" alt="" class="contacts__contacts-icon contacts__inst-icon"/>
+							</picture>
+							<p class="contacts__p d-none d-sm-block contacts__inst-txt">Жизнь нашей гостиницы</p>
+							<a href="#" class="btn contacts__btn contacts__btn-1 d-none d-xxl-inline-block">Подписаться</a>
+						</a>
+						<a class="d-flex align-items-center contacts__item contacts__item-2 contacts__vk" href="https://www.vk.com/arendakvartir59/">
+							<picture>
+								<source srcset="img//contacts__icon-vk.webp" type="image/webp"/>
+								<img src="img/contacts__icon-vk.png" alt="" class="contacts__contacts-icon contacts__vk-icon"/>
+							</picture>
+							<p class="contacts__p d-none d-sm-block contacts__vk-txt">Актуальные новости</p>
+							<a href="#" class="btn contacts__btn contacts__btn-2 d-none d-xxl-inline-block">Подписаться</a>
+						</a>
+					</div>
+					<a href="#" class="btn contacts__btn d-xxl-none">Подписаться</a>
+				</div>
+				<div class="col-12 col-sm wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+					<div class="contacts__map map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d164301.38597746802!2d36.2160228!3d49.9511789!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43edd3debc296247%3A0x31c55bce25e4ac32!2z0JHQtdGA0LXQt9C90LjQutC4LCDQn9C10YDQvNGB0LrQuNC5INC60YDQsNC5LCDQoNC-0YHRgdC40Y8!5e0!3m2!1sru!2sua!4v1616359321768!5m2!1sru!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+							
+						</iframe>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="reviews">
+		<div class="quotes"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="h2 reviews__title-h2">Отзывы клиентов</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="slider rev-slider">
+						<div class="image-slider swiper-container">
+							<div class="image-slider__wrapper swiper-wrapper">
+								<div class="image-slider__slide swiper-slide">
+									<div class="reviews__item">
+										<div class="reviews__stars">
+											<picture>
+												<source/ srcset="img/stars-5.webp" type="image/webp"/>
+												<img src="img/stars-5.png" alt="" class="reviews__stars-img d-xxl-none"/>
+											</picture>
+											<picture>
+												<source srcset="img/stars-5-1440.webp" type="image/webp"/>
+												<img src="img/stars-5-1440.png" alt="" class="reviews__stars-img d-none d-xxl-block"/>
+											</picture>
+										</div>
+										<div class="rev-top">
+											<h3 class="h3 reviews__title-h3">Уютная квартира</h3>
+											<p class="p reviews__p">Первый раз отдыхали в Березниках, времени было мало соответственно жильё искали	заранее. Залог вносили с опасением, и очень рады что они были напрасными. Всё супер. Нам понравилось!
+											</p>
+										</div>
+										<div class="rev-bottom">
+											<h4 class="h4 reviews__title-h4">Екатерина Трушникова</h4>
+											<div class="d-flex justify-content-between">
+												<p class="p reviews__p-bottom slider__txt-loc">г. Пермь</p>
+												<p class="p reviews__p-bottom slider__txt-date">2 января 2021</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="image-slider__slide swiper-slide">
+									<div class="reviews__item">
+										<div class="reviews__stars">
+											<picture>
+												<source /srcset="img/stars-4.webp" type="image/webp"/>
+												<img src="img/stars-4.png" alt="" class="reviews__stars-img d-xxl-none"/>
+											</picture>
+											<picture>
+												<source srcset="img/stars-4-1440.webp" type="image/webp"/>
+												<img src="img/stars-4-1440.png" alt="" class="reviews__stars-img d-none d-xxl-block"/>
+											</picture>
+										</div>
+										<div class="rev-top">
+											<h3 class="h3 reviews__title-h3">Клёвый вид на город</h3>
+											<p class="p reviews__p">
+												Хочу поблагодарить за квартиру на ул. Юбилейной, д. 108. Удобное месторасположение, совсем
+												рядом с центром. Квартира уютная, соседей не слышно, мы прекрасно отдохнули.Все что нужно для приготовления еды есть.
+											</p>
+										</div>
+										<div class="rev-bottom">
+											<h4 class="h4 reviews__title-h4">Иван Огородников</h4>
+											<div class="d-flex justify-content-between">
+												<p class="p reviews__p-bottom slider__txt-loc">г. Краснокамск</p>
+												<p class="p reviews__p-bottom slider__txt-date">15 сентября 2019</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="image-slider__slide swiper-slide">
+									<div class="reviews__item">
+										<div class="reviews__stars">
+											<picture>
+												<source srcset="img/stars-5.webp" type="image/webp"/>
+												<img src="img/stars-5.png" alt="" class="reviews__stars-img d-xxl-none"/>
+											</picture>
+											<picture>
+												<source srcset="img/stars-5-1440.webp" type="image/webp"/>
+												<img src="img/stars-5-1440.png" alt="" class="reviews__stars-img d-none d-xxl-block"/>
+											</picture>
+										</div>
+										<div class="rev-top">
+											<h3 class="h3 reviews__title-h3">Уютная квартира</h3>
+											<p class="p reviews__p">Первый раз отдыхали в Березниках, времени было мало соответственно жильё искали заранее. Залог вносили с опасением, и очень рады что они были напрасными. Всё супер. Нам понравилось!
+											</p>
+										</div>
+										<div class="rev-bottom">
+											<h4 class="h4 reviews__title-h4">Екатерина Трушникова</h4>
+											<div class="d-flex justify-content-between">
+												<p class="p reviews__p-bottom slider__txt-loc">г. Пермь</p>
+												<p class="p reviews__p-bottom slider__txt-date">2 января 2021</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="d-none swiper-scrollbar"></div>
+						</div>
+
+						<div class="swiper-pagination rev-swiper-pagination"></div>
+						<!-- <div class="d-none d-xxl-block swiper-pagination rev-swiper-pagination"></div> -->
+						<div class=" swiper-button-prev"></div>
+						<div class=" swiper-button-next"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="at-last">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="write-to-us wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+						<div id="get_in_touch">
+							
+		<form action="#" method="post">
+			<input type="text" name="name" placeholder="Введите имя">
+			<input type="email" name="email" placeholder="Введите email">
+			<input type="hidden" id="token" name="token">
+			<button type="submit" name="post">Отправить</button>
+		</form>
+
+
+							<form class="call_back dflex_sb" method="POST" id="form-message">
+								<div class="call__success ">
+									<span>Спасибо! <br> <br>Ваше сообщение отправлено</span>
+								</div>
+								<h2 class="call_back-title m_b">Напишите нам</h2>
+								<input type="hidden" name="project_name" value="Site Name"/>
+								<input type="hidden" name="admin_email" value="vetalk1875@gmail.com"/>
+								<input type="hidden" name="form_subject" value="Заявка"/>
+								<input type="hidden" name="Главная"/>
+
+								<input type="text" name="Name" value="" placeholder="Имя" class="m_t" />
+								<input type="text" name="Email" value="" placeholder="Email"class="m_t"/>
+								<textarea type="text" name="Budget" value="" placeholder="Сообщение" class="m_t"></textarea>
+								<a href="#" class="terms">Пользовательское соглашение</a>
+								<input type="checkbox" class="persone_data" id="persone_data" class="input popup-input" placeholder="Имя"/>
+								<label for="persone_data">Нажимая кнопку, Вы соглашаетесь с условиями обработки персональных данных</label>
+								<div class="button">
+									<button id="submit" disabled="disabled">Отправить</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="d-none d-md-block offset-md-6 col-md-6 offset-lg-5 col-lg-7 offset-xxl-5 col-xxl-7 pl-md-57 pl-lg-42 pl-xxl-57 wow animate__animated animate__fadeInRight" data-wow-delay="0.2s">
+					<p class="p at-last__p">
+						Дорогой гость, если у тебя есть какие-то пожелания или притензии по улучшению качества обслуживания
+						или просто хочешь оставить свой комментарий, то заполни форму. Мы обязательно ответим тебе,
+						или опубликуем его на нашем сайте.
+					</p>
+					<h4 class="h4 at-last__title-h4">Татьяна Вячеславовна</h4>
+					<p class="p at-last__position">Директор гостиницы</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="footer__content justify-content-sm-between">
+						<a href="index.html" class="footer__logo">
+							<picture>
+								<source srcset="img/logo.webp" type="image/webp"/>
+								<img src="img/logo.png" alt="" class="footer__logo-img logo"/>
+							</picture>
+						</a>
+						<ul class="d-none d-xxl-flex footer__nav nav">
+							<li class="nav__item"><a href="#" class="footer__nav-link">Главная</a></li>
+							<li class="nav__item"><a href="#flats" class="footer__nav-link">Квартиры</a></li>
+							<li class="nav__item"><a href="#contacts" class="footer__nav-link">Контакты</a></li>
+							<li class="nav__item"><a href="#about" class="footer__nav-link">О нас</a></li>
+						</ul>
+						<div class="footer__contacts d-flex">
+							<a class="d-none d-lg-flex footer__mail d-flex align-items-md-center" href="mailto:mail@yandex.ru">
+								<picture>
+									<source srcset="img/contacts__icon-mail.webp" type="image/webp"/>
+									<img src="img/contacts__icon-mail.png" alt="" class="footer__mail-icon"/>
+								</picture>
+								<p class="footer__mail-txt">mail@yandex.ru</p>
+							</a>
+							<a class="d-none d-md-flex footer__tel d-flex align-items-md-center" href="tel:+79197142500">
+								<picture>
+									<source srcset="img/contacts__icon-tel.webp" type="image/webp"/>
+									<img src="img/contacts__icon-tel.png" alt="" class="footer__tel-icon"/>
+								</picture>
+								<p class="footer__tel-txt">+7 (950) 444-45-44</p>
+							</a>
+						</div>
+						<div class="footer__soc soc">
+							<a href="#" class="soc__link d-flex">
+								<span class="footer-icon icon-telegram footer__soc-size"></span>
+							</a>
+							<a href="#" class="soc__link d-flex">
+								<span class="footer-icon icon-fb footer__soc-size" ></span>
+							</a>
+							<a href="#" class="soc__link d-flex">
+								<span class="footer-icon icon-vk footer__soc-size"></span>
+							</a>
+							<a href="#" class="soc__link d-flex">
+								<span class="footer-icon icon-inst footer__soc-size"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="d-none d-md-flex col-md-12 row footer__bottom">
+				<div class="col-12 col-xxl-4">
+					<a href="#" class="politic">Пользовательское соглашение</a>
+				</div>
+				<div class="col-12 col-xxl-4 order-xxl-first">
+					<p class="p copyright">© Copyright 2021, «Домашняя гостиница»</p>
+				</div>
+			</div>
+		</div>
+		<div class="shadow-bottom"></div>
+	</div>
+
+
+	<div class="popup " id="popup">
+		<div class="popup__body">
+			<div class="popup__content">
+				<div id="get_in_touch">
+					<div class="popup__close">x</div>
+					<form class="call_back dflex_sb" method="POST" id="form-cb" >
+						<div class="call__success ">
+							<span>Спасибо!<br><br> Мы перезвоним Вам в ближайшее время</span>
+						</div>
+						<h2 class="call_back-title m_b">Заказать звонок</h2>
+						<p>Оставьте заявку и мы свяжемся с Вами в ближайшее время!</p>
+						<input type="hidden" name="project_name" value="Site Name"/>
+						<input type="hidden" name="admin_email" value="vetalk1875@gmail.com"/>
+						<input type="hidden" name="form_subject" value="Заявка"/>
+
+						<input type="hidden" name="Главная">
+
+						<input type="text" name="Name" value="" placeholder="Имя" class="m_b"/ >
+						<input type="tel" name="phone" value="" placeholder="Телефон" id="phone"  class="m_b"/>
+						<a href="#" class="terms">Пользовательское соглашение</a>
+						<input type="checkbox" class="persone_data_cb" id="persone_data_cb" class="input popup-input" placeholder="Имя"/>
+						<label for="persone_data_cb">Нажимая кнопку, Вы соглашаетесь с условиями обработки персональных данных</label>
+						<div class="button">
+							<button id="submit_cb" disabled="disabled">Отправить</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- 
+<script>
+function isJSON(jsonString){
+	try {
+		var o = JSON.parse(jsonString);
+		if(o && typeof o === "object"){
+			return o;
+		}
+	}
+	catch(e){}
+	return false;
+}
+$(document).ready(function(){
+	$("#popup form").submit(function(e) {
+		e.preventDefault();
+		$.ajax({
+			type: "POST",
+			url: "http://z68835v9.beget.tech/form/index.php",
+			data: $(this).serialize()
+		}).done(function(msg){
+			//console.log("received data = " + msg );
+			var obj = isJSON(msg);
+			if(obj === false){
+				alert("Не валидная строка (не в формате JSON). Вот она = " + msg);
+			}
+			else{
+				if(obj.success){
+					alert("Спасибо! Ваше сообщение отправлено.");
+				}
+				else if(obj.errors){
+					//перебираем все ошибки
+					obj.errors.forEach(function(item, i) {
+						alert("атрибут NAME поля в котором произошла ошибка = " + item.name + " | text = " + item.message);
+					});
+				}
+				else{
+					//и в таком случае что-то выводим?
+				}
+			}
+		});
+	});
+});
+</script>
+-->
+<script  src="js/script.min.js"></script>
+<script  src="libs/jquery-validation-1.19.3/dist/jquery.validate.js"></script>
+
+
+<script src="https://www.google.com/recaptcha/api.js?render="></script>
+	<script>
+	
+		document.querySelector('form').addEventListener('submit', (e) => {
+			e.preventDefault();
+			let tk = '';
+			grecaptcha.ready(function() {
+          grecaptcha.execute('', {action: 'homepage'}).then(function(token) {
+            tk = token;
+						document.getElementById('token').value = token;
+						const data = new URLSearchParams();
+						for (const pair of new FormData(document.querySelector('form'))) {
+								data.append(pair[0], pair[1]);
+						}
+						fetch('send.php', {
+							method: 'post',
+							body: data,
+						})
+						.then(response => response.json())
+						.then(result => {
+							if (result['om_score'] >= 0.5) {
+								console.log('Человек')
+								// отправка данных на почту
+							} else {
+								console.log('Бот')
+							}
+						});
+          });
+        });
+		});
+	
+	</script>
+
+</body>
+
+</html>
